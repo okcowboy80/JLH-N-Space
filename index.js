@@ -1,3 +1,6 @@
+import { myConfig, myKey } from './myConfig.js';
+let val = myKey(); 
+
 // rest API to Use:
 /* 
 
