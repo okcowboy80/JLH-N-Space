@@ -1,6 +1,7 @@
 body {
     background-image: url("https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
     margin: 0;
+    padding: 20px;
     /* font-family: 'Permanent Marker', cursive; */
     /* font-family: 'Rock Salt', cursive, Arial, Helvetica, sans-serif; */
     font-family: 'Mitr', sans-serif;
@@ -28,13 +29,14 @@ h1 {
     margin-top: 0px;
     color: white;
 }
-h2 {
-    color: white;
+h2, h3{
+    color: rgb(116, 149, 250);
 }
 
 p {
     position: relative;
     color: lightgray;
+    margin: 10px;
 }
 
 img {
@@ -98,7 +100,7 @@ img {
     background-color: white;
     max-width: 35%;
     border-radius: 100% 100% 100% 0;
-    padding: 30px;
+    padding: 35px;
 }
 
 #astronaut {
