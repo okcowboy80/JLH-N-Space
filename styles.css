@@ -118,7 +118,7 @@ img {
 }
 
 #astronaut {
-    animation: moveAstronaut 5s 3;
+    animation: moveAstronaut 5s 2;
     animation-direction: alternate-reverse;
     animation-iteration-count: infinite;
 }
