@@ -9,9 +9,16 @@ body {
     overflow-x: hidden;
 }
 
+a {
+    color: slategray;
+}
+
+a:hover {
+    color: orange;
+}
+
 .mainConainer {
-    margin: 0%;
-    
+    margin: 1%;
 }
 
 .container {
