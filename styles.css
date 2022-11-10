@@ -93,6 +93,7 @@ img {
 #astronaut {
     position: relative;
     margin: auto;
+
 }
 
 #speech {
@@ -102,7 +103,6 @@ img {
     width: 40%;
     top: -25%;
     right: 10%;
-    
 }
 
 #speech-paragraph {
@@ -118,12 +118,12 @@ img {
 }
 
 #astronaut {
-    animation: moveAstronaut 5s 2;
+    animation: moveAstronaut 4s 2;
     animation-direction: alternate-reverse;
     animation-iteration-count: infinite;
 }
 
 @keyframes moveAstronaut {
     0%   {left: 0px; top: 0px;}
-    100%  {left: 25px; top: 0px;}
+    100%  {left: 10px; top: 0px;}
   }
