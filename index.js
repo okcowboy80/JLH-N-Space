@@ -20,6 +20,5 @@ fetch('https://api.spacexdata.com/v4/history')
     info = `<h3>${title}</h3>`;
     info += `<h4>${details}</h4>`
     document.getElementById("speech-paragraph").innerHTML = info;
-    //console.log(response)
   })
 	.catch(err => console.error(err));
