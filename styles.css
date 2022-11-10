@@ -5,11 +5,13 @@ body {
     /* font-family: 'Permanent Marker', cursive; */
     /* font-family: 'Rock Salt', cursive, Arial, Helvetica, sans-serif; */
     font-family: 'Mitr', sans-serif;
-    overflow-y: scroll; overflow-x: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .mainConainer {
-    padding: 30px;
+    margin: 0%;
+    
 }
 
 .container {
