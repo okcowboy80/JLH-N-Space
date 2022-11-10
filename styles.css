@@ -101,7 +101,8 @@ img {
     transform: scaleY(-1);
     width: 40%;
     top: -25%;
-    right: 100px;
+    right: 10%;
+    
 }
 
 #speech-paragraph {
