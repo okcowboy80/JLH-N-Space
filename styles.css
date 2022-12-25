@@ -6,19 +6,16 @@
 
 body {
   background-image: url("https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
-  margin: 0;
-  padding: 20px;
-
-  /* font-family: 'Permanent Marker', cursive; */
-  /* font-family: 'Rock Salt', cursive, Arial, Helvetica, sans-serif; */
+  margin: 15px;
   font-family: "Mitr", sans-serif;
   overflow-y: scroll;
-  width: 100%;
-  overflow-x: hidden;
+  width: 95%;
+  /* overflow-x: hidden; */
+  overflow-anchor: none;
 }
 
 a {
-  color: slategray;
+  color: rgb(142, 170, 199);
 }
 
 a:hover {
@@ -115,10 +112,10 @@ img {
   position: absolute;
   text-align: center;
   top: -20%;
-  right: 5%;
+
   color: black;
   background-color: white;
-  max-width: 35%;
+  max-width: 30%;
   border-radius: 100% 100% 100% 0;
   padding: 35px;
   overflow-x: hidden;
@@ -135,7 +132,7 @@ img {
 
 #astronaut-img {
   position: absolute;
-  left: 50%;
+  left: 35%;
   animation: moveAstronaut 4s;
   animation-direction: alternate-reverse;
   animation-iteration-count: infinite;
@@ -159,6 +156,17 @@ img {
   z-index: -1;
 }
 
+#contact-me {
+  display: inline;
+}
+
+.bottom-container {
+  text-align: center;
+  background-color: rgba(76, 125, 175, 0.585);
+  padding: 10px 0;
+  width: 102.5%;
+}
+
 @keyframes moveComet {
   0% {
     right: -30%;
@@ -174,11 +182,11 @@ img {
 
 @keyframes moveAstronaut {
   0% {
-    left: 40%;
+    left: 35%;
     top: 10%;
   }
   100% {
-    left: 45%;
+    left: 40%;
     top: 10%;
   }
 }
@@ -186,10 +194,10 @@ img {
 @keyframes moveSpeech {
   0% {
     left: 60%;
-    top: -10%;
+    top: -60%;
   }
   100% {
     left: 65%;
-    top: -10%;
+    top: -60%;
   }
 }
