@@ -1,6 +1,7 @@
 :root {
   --change: 1000px;
   --speed: var(--change);
+  --scale: 100px;
 }
 
 body {
@@ -162,10 +163,12 @@ img {
   0% {
     right: -30%;
     top: var(--speed);
+    width: var(--scale);
   }
   100% {
     right: 100%;
     top: var(--speed);
+    width: var(--scale);
   }
 }
 
