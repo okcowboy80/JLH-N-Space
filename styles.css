@@ -12,6 +12,7 @@ body {
   width: 95%;
   /* overflow-x: hidden; */
   overflow-anchor: none;
+  overflow-x: hidden;
 }
 
 a {
