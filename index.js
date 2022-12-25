@@ -22,3 +22,4 @@ fetch('https://api.spacexdata.com/v4/history')
     document.getElementById("speech-paragraph").innerHTML = info;
   })
 	.catch(err => console.error(err));
+
