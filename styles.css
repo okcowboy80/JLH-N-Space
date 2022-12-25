@@ -6,10 +6,10 @@
 
 body {
   background-image: url("https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
-  margin: 15px;
+  margin: 5px;
   font-family: "Mitr", sans-serif;
   overflow-y: scroll;
-  width: 95%;
+
   /* overflow-x: hidden; */
   overflow-anchor: none;
   overflow-x: hidden;
@@ -24,7 +24,7 @@ a:hover {
 }
 
 .mainConainer {
-  margin-left: 10px;
+  margin: 0 10px;
 }
 
 .container {
@@ -165,7 +165,7 @@ img {
   text-align: center;
   background-color: rgba(76, 125, 175, 0.585);
   padding: 10px 0;
-  width: 102.5%;
+  /* width: 102.5%; */
 }
 
 @keyframes moveComet {
@@ -194,11 +194,11 @@ img {
 
 @keyframes moveSpeech {
   0% {
-    left: 60%;
+    left: 55%;
     top: -60%;
   }
   100% {
-    left: 65%;
+    left: 60%;
     top: -60%;
   }
 }
