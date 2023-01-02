@@ -202,3 +202,9 @@ img {
     top: -60%;
   }
 }
+
+@media screen and (max-width: 800px) {
+  #speech-paragraph {
+    display: none;
+  }
+}
