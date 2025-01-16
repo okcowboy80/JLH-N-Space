@@ -35,7 +35,8 @@ fetch('https://api.spacexdata.com/v4/history')
 
         let eventPayload = event.data
         let div = document.createElement('div');
-        div.innerText = eventPayload;
+        div.style.color='white';
+        div.innerText = eventPayload.agentEmail;
         let body = document.querySelector('body');
         body.appendChild(div);
     },
