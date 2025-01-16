@@ -37,7 +37,7 @@ fetch('https://api.spacexdata.com/v4/history')
         let eventPayload = event.data;
         let data = eventPayload.data;
         let agent = eventPayload.agentEmail;
-        let name = eventPayload.name;
+        let name = eventPayload;
         let convId = eventPayload.conversationId;
         let type = eventPayload.type;
         htmlString += "<p>Conversation ID: " + convId + "</p>"
