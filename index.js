@@ -46,7 +46,7 @@ fetch('https://api.spacexdata.com/v4/history')
         
         let div = document.createElement('div');
         div.style.color='white';
-        div.innerText = htmlString;
+        div.innerHTML = htmlString;
         let body = document.querySelector('body');
         body.appendChild(div);
     },
