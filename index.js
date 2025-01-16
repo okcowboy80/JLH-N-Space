@@ -32,11 +32,15 @@ fetch('https://api.spacexdata.com/v4/history')
         // Events are present inside event.data
         // You can use data inside event.data by assigning a variable
         // e.g.: let eventPayload = event.data
-
+        let htmlString = "";
         let eventPayload = event.data
+        for (const property in eventPayload) {
+          htmlString += `${property}: ${eventPayload[property]}`;
+        }
+        
         let div = document.createElement('div');
         div.style.color='white';
-        div.innerText = eventPayload.agentEmail;
+        div.innerText = htmlString;
         let body = document.querySelector('body');
         body.appendChild(div);
     },
