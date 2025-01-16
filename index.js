@@ -35,7 +35,7 @@ fetch('https://api.spacexdata.com/v4/history')
         let htmlString = "";
         let eventPayload = event.data.data;
         for (const property in eventPayload) {
-          htmlString += `${property}: ${eventPayload[property]}`;
+          htmlString += `${property}: ${eventPayload[property]}<br>`;
         }
         
         let div = document.createElement('div');
