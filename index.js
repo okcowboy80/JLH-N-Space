@@ -37,13 +37,14 @@ fetch('https://api.spacexdata.com/v4/history')
         let eventPayload = event.data;
         let data = eventPayload.data;
         let agent = eventPayload.agentEmail;
+        let name = data.name;
         let convId = eventPayload.conversationId;
         let type = eventPayload.type;
         htmlString += "<p>Conversation ID: " + convId + "</p>"
         htmlString += "<p>Type: " + type + "</p>"
         htmlString += "<p>Agent: " + agent + "</p>";
         htmlString += "<p>Text: " + data.text + "</p>"
-        
+        htmlString += "<p>Name Captured: " + name + "</p>";
         let div = document.createElement('div');
         div.style.color='white';
         div.innerHTML = htmlString;
