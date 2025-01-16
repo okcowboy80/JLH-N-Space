@@ -23,3 +23,22 @@ fetch('https://api.spacexdata.com/v4/history')
   })
 	.catch(err => console.error(err));
 
+  window.addEventListener(
+    "message",
+    (event) => {
+        if (event.origin !== "https://www.snapengage.com") return;
+        console.log(event.data);
+        // ...
+        // Events are present inside event.data
+        // You can use data inside event.data by assigning a variable
+        // e.g.: let eventPayload = event.data
+
+        let eventPayload = event.data
+        let div = document.createElement('div');
+        div.innerText = eventPayload;
+        let body = document.querySelector('body');
+        body.appendChild(div);
+    },
+    false
+);
+
