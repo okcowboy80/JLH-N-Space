@@ -33,7 +33,7 @@ fetch('https://api.spacexdata.com/v4/history')
         // You can use data inside event.data by assigning a variable
         // e.g.: let eventPayload = event.data
         let htmlString = "";
-        let eventPayload = event.data
+        let eventPayload = event.data.data;
         for (const property in eventPayload) {
           htmlString += `${property}: ${eventPayload[property]}`;
         }
