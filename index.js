@@ -27,8 +27,8 @@ window.addEventListener(
   "message",
   (event) => {
     if (event.origin !== "https://www.snapengage.com") return;
-    console.log(event.data);
-    console.log(event.data.data);
+    console.log("My Data: ", event.data);
+    console.log("Other Data: ", event.data.data);
     // ...
     // Events are present inside event.data
     // You can use data inside event.data by assigning a variable
